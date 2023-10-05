@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "author": "sample <sample@gmail.com>",
+  "inLanguage": "ja",
+  "dateModified": "2023-10-05T05:53:52.083Z",
+  "name": "sample",
+  "readingOrder": [
+    {
+      "url": "content/index.html",
+      "name": "sample",
+      "rel": "contents",
+      "type": "LinkedResource"
+    },
+    {
+      "url": "content/maegaki.html",
+      "name": "まえがき"
+    },
+    {
+      "url": "content/sample/index.html",
+      "name": "高瀬舟"
+    },
+    {
+      "url": "content/atogaki.html",
+      "name": "著者プロフィール"
+    }
+  ],
+  "resources": [],
+  "links": []
+}
