@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^1.0.1
     version: 1.0.1
   textlint-rule-no-nfd:
-    specifier: ^1.0.2
-    version: 1.0.2
+    specifier: ^2.0.2
+    version: 2.0.2
   textlint-rule-preset-ja-spacing:
     specifier: ^2.3.0
     version: 2.3.0
@@ -3467,12 +3467,11 @@ packages:
       textlint-rule-helper: 2.3.0
     dev: true
 
-  /textlint-rule-no-nfd@1.0.2:
-    resolution: {integrity: sha512-n6tUx40/V6koDo78qqePHxSovuwSIKO0xwY3FCqVDbcfg9GxQCjde1twQJ99T3bs4LabhPOo/Pt3USaQ9XcTRQ==}
+  /textlint-rule-no-nfd@2.0.2:
+    resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.0
-      unorm: 1.6.0
     dev: true
 
   /textlint-rule-preset-ja-spacing@2.3.0:
@@ -3761,11 +3760,6 @@ packages:
       '@types/unist': 2.0.8
       unist-util-is: 5.2.1
       unist-util-visit-parents: 4.1.1
-    dev: true
-
-  /unorm@1.6.0:
-    resolution: {integrity: sha512-b2/KCUlYZUeA7JFUuRJZPUtr4gZvBh7tavtv4fvk4+KV9pfGiR6CQAQAWl49ZpR3ts2dk4FYkP7EIgDJoiOLDA==}
-    engines: {node: '>= 0.4.0'}
     dev: true
 
   /untildify@3.0.3:
