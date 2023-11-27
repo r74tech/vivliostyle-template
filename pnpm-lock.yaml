@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^1.1.1
     version: 1.1.1
   textlint-rule-max-ten:
-    specifier: ^4.0.4
-    version: 4.0.4
+    specifier: ^5.0.0
+    version: 5.0.0
   textlint-rule-no-doubled-conjunction:
     specifier: ^2.0.4
     version: 2.0.4
@@ -163,6 +163,10 @@ packages:
 
   /@textlint/ast-node-types@13.3.3:
     resolution: {integrity: sha512-KCpJppfX3Km69twa6SmVEJ8mkyAZSrxw3XaaLQSlpc7PWnLUJSCHGPVECI1nSUDhiTd1r6zlRvWuyIAZJiov+A==}
+    dev: true
+
+  /@textlint/ast-node-types@13.4.1:
+    resolution: {integrity: sha512-qrZyhCh8Ekk6nwArx3BROybm9BnX6vF7VcZbijetV/OM3yfS4rTYhoMWISmhVEP2H2re0CtWEyMl/XF+WdvVLQ==}
     dev: true
 
   /@textlint/ast-node-types@4.4.3:
@@ -3092,6 +3096,13 @@ packages:
       structured-source: 3.0.2
     dev: true
 
+  /sentence-splitter@5.0.0:
+    resolution: {integrity: sha512-9Mvf7L8vwpPzkH0/HtXzCbmVkyj4aQXdeG7h8ighRvO0hvcZEy2OUEjeIlnM/z4EX4vBacEfpESC65Oa2rWOig==}
+    dependencies:
+      '@textlint/ast-node-types': 13.4.1
+      structured-source: 4.0.0
+    dev: true
+
   /serve-handler@6.1.5:
     resolution: {integrity: sha512-ijPFle6Hwe8zfmBxJdE+5fta53fdIY0lHISJvuikXB3VYFafRjMRpOffSPvCYsbKyBA7pvy9oYr/BT1O3EArlg==}
     dependencies:
@@ -3316,6 +3327,14 @@ packages:
       unist-util-visit: 2.0.3
     dev: true
 
+  /textlint-rule-helper@2.3.1:
+    resolution: {integrity: sha512-b1bijvyiUmKinfFE5hkQMSXs3Ky8jyZ3Y6SOoTRJKV9HLL2LWUVFAUezO7z4FpAkVvYruDYWCwA5qWV8GmvyUw==}
+    dependencies:
+      '@textlint/ast-node-types': 13.4.1
+      structured-source: 4.0.0
+      unist-util-visit: 2.0.3
+    dev: true
+
   /textlint-rule-ja-hiragana-hojodoushi@1.1.0:
     resolution: {integrity: sha512-J+7thUQx5/o4grCbgiQPwT5uFhXYulaP+rf+QnA8H5fYrEjwDrvSlU/RVuibbrYIjigDso09FU8lft02y+XgMA==}
     dependencies:
@@ -3408,13 +3427,13 @@ packages:
       textlint-rule-helper: 2.3.0
     dev: true
 
-  /textlint-rule-max-ten@4.0.4:
-    resolution: {integrity: sha512-7jH04Ey2HrjVWrjPB4Epk+X8ngeWcWDbvxhRji6sVu2mKuy8O/rjl4oMKFfHeOJuvnKjP+sfg9/o2nO6Jp0ggw==}
+  /textlint-rule-max-ten@5.0.0:
+    resolution: {integrity: sha512-EWOvbEa3Ukxz0+GAUEJ91DYFSC3IkyJ10dBcsU6VlL33k1BvTRoFr3m26w6upnXJffXQUI70Etn39I++2duyhA==}
     dependencies:
       kuromojin: 3.0.0
-      sentence-splitter: 3.2.3
-      textlint-rule-helper: 2.3.0
-      textlint-util-to-string: 3.3.2
+      sentence-splitter: 5.0.0
+      textlint-rule-helper: 2.3.1
+      textlint-util-to-string: 3.3.4
     dev: true
 
   /textlint-rule-no-doubled-conjunction@2.0.4:
@@ -3500,6 +3519,15 @@ packages:
     resolution: {integrity: sha512-TCnHX5xGDWIGQpcusLrctodid+n5t5G6ft9+KAVad+GmrOOkk9IiPej8FwH9Vq/uk1j44yTB20YYja0YnQ+z/w==}
     dependencies:
       '@textlint/ast-node-types': 13.3.3
+      rehype-parse: 6.0.2
+      structured-source: 4.0.0
+      unified: 8.4.2
+    dev: true
+
+  /textlint-util-to-string@3.3.4:
+    resolution: {integrity: sha512-XF4Qfw0ES+czKy03BwuvBUoXC8NAg920VuRxW0pd72fW76zMeMbPI/bRN5PHq3SbCdOm7U69/Pk+DX34xqIYqA==}
+    dependencies:
+      '@textlint/ast-node-types': 13.4.1
       rehype-parse: 6.0.2
       structured-source: 4.0.0
       unified: 8.4.2
